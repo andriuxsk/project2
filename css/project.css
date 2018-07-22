@@ -1,0 +1,396 @@
+html, body {
+  font-family: 'Cinzel', serif;
+  display: block;
+  position: absolute;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff; }
+
+header {
+  width: 100%;
+  height: 50rem;
+  background-color: #c53062; }
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.nav-bg {
+  width: 100%;
+  height: 6rem;
+  background-color: #131821;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+
+.logo {
+  background-image: url(/Uzduotis/Praktinis%20proektas%202/img/Logo.png);
+  background-repeat: no-repeat;
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  margin: 1.5rem 0 0 10rem;
+  z-index: 2; }
+
+nav {
+  display: block;
+  margin: 2.5% 20% 0 0;
+  position: relative;
+  z-index: 2; }
+
+a {
+  display: inline;
+  padding: 0;
+  margin: 0 1rem 1rem 0.5rem;
+  color: #fff;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none; }
+
+.bgimage {
+  height: 50rem;
+  width: 100%; }
+
+.bg-image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50rem;
+  opacity: 0.3; }
+
+.tag-line {
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  color: #fff;
+  position: relative;
+  z-index: 2; }
+
+h1 {
+  margin-top: 25%; }
+
+.hrline {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.since {
+  padding: 0 1rem;
+  margin: auto; }
+
+hr.left {
+  width: 5rem;
+  height: 0.1rem;
+  color: gray; }
+
+hr.right {
+  width: 5rem;
+  height: 0.1rem;
+  color: gray; }
+
+.arrow-container {
+  z-index: 2;
+  position: relative; }
+
+html {
+  height: 100%; }
+
+body {
+  background: #000;
+  position: relative;
+  height: 100%; }
+
+.arrow-container {
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) rotateZ(1deg);
+  -ms-transform: translate(-50%, -50%) rotate(1deg);
+  transform: translate(-50%, -50%) rotateZ(1deg); }
+  .arrow-container:hover {
+    cursor: pointer; }
+    .arrow-container:hover .arrow {
+      top: 50%; }
+      .arrow-container:hover .arrow:before {
+        -webkit-transform: translate(-50%, -50%) rotateZ(-30deg);
+        -ms-transform: translate(-50%, -50%) rotate(-30deg);
+        transform: translate(-50%, -50%) rotateZ(-30deg); }
+      .arrow-container:hover .arrow:after {
+        -webkit-transform: translate(-50%, -50%) rotateZ(30deg);
+        -ms-transform: translate(-50%, -50%) rotate(30deg);
+        transform: translate(-50%, -50%) rotateZ(30deg); }
+
+.arrow {
+  position: absolute;
+  left: 50%;
+  -webkit-transition: all .6s ease;
+  -o-transition: all .6s ease;
+  transition: all .6s ease; }
+  .arrow:before, .arrow:after {
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    content: '';
+    display: block;
+    position: absolute;
+    -webkit-transform-origin: bottom right;
+    -ms-transform-origin: bottom right;
+    transform-origin: bottom right;
+    background: #fff;
+    width: 4px;
+    height: 50px;
+    border-radius: 10px;
+    -webkit-transform: translate(-50%, -50%) rotateZ(-45deg);
+    -ms-transform: translate(-50%, -50%) rotate(-45deg);
+    transform: translate(-50%, -50%) rotateZ(-45deg); }
+  .arrow:after {
+    -webkit-transform-origin: bottom left;
+    -ms-transform-origin: bottom left;
+    transform-origin: bottom left;
+    -webkit-transform: translate(-50%, -50%) rotateZ(45deg);
+    -ms-transform: translate(-50%, -50%) rotate(45deg);
+    transform: translate(-50%, -50%) rotateZ(45deg); }
+  .arrow:nth-child(1) {
+    opacity: 0.3;
+    top: 35%; }
+  .arrow:nth-child(2) {
+    opacity: 0.6;
+    top: 55%; }
+  .arrow:nth-child(3) {
+    opacity: 0.9;
+    top: 75%; }
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fff;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: 100%;
+  height: auto; }
+
+.header {
+  padding: 3rem;
+  margin: auto;
+  text-align: center; }
+
+hr {
+  width: 10%;
+  color: gray; }
+
+.team {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.avatar {
+  margin-top: 3rem; }
+
+.img-avatar {
+  width: 60%;
+  border-radius: 50%; }
+
+h3 {
+  font-size: 22px; }
+
+.soc-container {
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  text-align: center; }
+
+#map {
+  width: 100%;
+  height: 100%; }
+
+.feed-gallery {
+  width: 100%;
+  height: auto; }
+
+.img-box {
+  margin: auto;
+  margin-bottom: 3rem;
+  width: 58%;
+  border-left: 2rem solid #e0d8d8;
+  border-right: 2rem solid #e0d8d8;
+  height: 12rem;
+  background-color: #f1ebeb;
+  cursor: pointer; }
+
+.slick:hover {
+  position: relative; }
+
+.slick:hover::before {
+  content: url(/Uzduotis/Praktinis%20proektas%202/img/zoomicon.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(197, 48, 98, 0.5);
+  position: absolute; }
+
+.social-box {
+  width: 15rem;
+  height: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 3rem;
+  margin: auto;
+  font-size: 15px;
+  border: 1px solid gray;
+  background-color: #EEE5E3; }
+
+.inst-ico {
+  margin: auto;
+  width: 2rem;
+  height: 2rem; }
+
+.social-box:hover {
+  background: #CBC2A4;
+  color: #784303; }
+
+.instagram {
+  display: inline;
+  padding: 0;
+  color: black;
+  font-size: 13px;
+  -webkit-text-decoration-line: none;
+  text-decoration-line: none; }
+
+.contact {
+  display: block;
+  margin-top: 3rem;
+  padding-bottom: 6rem;
+  background-color: #c53062;
+  width: 100%; }
+
+.contact-section-heder {
+  color: #fff;
+  margin: auto;
+  text-align: center;
+  padding: 2rem; }
+
+h2 {
+  padding: 0;
+  margin: 0; }
+
+form {
+  width: 45%; }
+
+div.contact-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  div.contact-form input[type=text], div.contact-form textarea {
+    width: 90%;
+    display: block;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; }
+  div.contact-form #subject {
+    height: 50%; }
+  div.contact-form input[type=submit] {
+    background-color: #2f312f;
+    color: white;
+    width: 90%;
+    padding: 18px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+
+.map {
+  width: 40%;
+  height: auto;
+  text-align: center;
+  color: #fff; }
+
+footer {
+  height: auto;
+  display: block;
+  background-color: #333333; }
+
+#ul-footer, .a-footer {
+  font-size: 15px;
+  margin: 0; }
+
+#ul-footer {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 0 0 0; }
+
+#footer-logo {
+  margin: -0.5rem 0.5rem 1rem 0;
+  width: 40px;
+  height: 40px; }
+
+#ico-facebook {
+  background-image: url(/Uzduotis/Praktinis%20proektas%202/img/Facebook.png);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat; }
+
+#ico-twitter {
+  background-image: url(/Uzduotis/Praktinis%20proektas%202/img/Twitter.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px; }
+
+#ico-instagram {
+  background-image: url(/Uzduotis/Praktinis%20proektas%202/img/Instagram.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px; }
+
+#ico-pinterest {
+  background-image: url(/Uzduotis/Praktinis%20proektas%202/img/Pinterest.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px; }
+
+#social-icos {
+  margin-top: 1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+#footer-footer {
+  background-color: #2d2d2d;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem; }

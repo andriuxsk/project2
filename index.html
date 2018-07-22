@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrius Kairys">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <title>Preminu Qualyti</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="css/project.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo"></div>
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">Abaut Us</a>
+                        <a href="#">social</a>
+                        <a href="#">Contct</a>
+                    </nav>
+                <div class="nav-bg"></div>
+            </div>
+            <div class="tag-line">
+                <h1>Premium Quality & Traditional</h1>
+                <div class="hrline">
+                    <hr class="left"><p class="since">Since 1978</p><hr class="right">
+                </div>
+            </div>
+                <a href="#" class="arrow-container">
+                      <div class="arrow"></div>
+                      <div class="arrow"></div>
+                      <div class="arrow"></div>
+                </a>
+            <div class="bg-image">
+                <img class="bgimage" src="img/backgroun.jpg" alt="">
+            </div>
+        </header>
+        <main class="main-container">
+            <div class="header">
+                    <h2>Meet Our Team</h2>
+            <hr>
+                <div class="team">
+                    <div class="avatar">
+                        <img class="img-avatar" src="img/avatarmail.jpg" alt="">
+                        <h3>Dennis Kim</h3>
+                        <span>
+                            In the tumultuous business of cutting-in and addenting
+                            to a whale, the is much running backwards and forwards
+                            among the crew.
+                        </span>
+                    </div>
+                    <div class="avatar">
+                        <img class="img-avatar" src="img/avatarryza.jpg" alt="">
+                        <h3>Sara McCoy</h3>
+                        <span>
+                            In the tumultuous business of cutting-in and addenting
+                            to a whale, the is much running backwards and forwards
+                            among the crew.
+                        </span>
+                    </div>
+                    <div class="avatar">
+                        <img class="img-avatar" src="img/avatargreeneye.jpg" alt="">
+                        <h3>Emily Porter</h3>
+                        <span>
+                            In the tumultuous business of cutting-in and addenting
+                            to a whale, the is much running backwards and forwards
+                            among the crew.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <section class="soc-container">
+
+            <div class="img-box">
+
+                <div class="slick"> <img  src="img/dviratis.jpg" alt=""> </div>
+                <div class="slick"> <img  src="img/miestas.jpg" alt=""> </div>
+                <div class="slick"> <img  src="img/skeitas.jpg" alt=""> </div>
+                <div class="slick"> <img  src="img/slide.jpg" alt=""> </div>
+
+	        </div>
+
+            <div class="social-box">
+                <img class="inst-ico" src="https://images.vexels.com/media/users/3/131142/isolated/preview/42686c238da2892da4bdea221bada9a6-instagram-flat-icon-by-vexels.png" alt="">
+                <a class="instagram"  href="#">Follow us on instagram</a>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact-section-heder">
+                <h2>Contat Us</h2>
+                <hr>
+            </div>
+            <div class="contact-form">
+                <form class="input-form" action="index.html" method="post">
+                    <input type="text" name="Name"  placeholder="Your name">
+                    <input type="text" name="email"  placeholder="Your Email">
+                    <textarea id="subject" name="subject" placeholder="Mesage"></textarea>
+                    <input type="submit" name="send" value="send">
+                </form>
+
+                <div class="map">
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d898.4381409277398!2d-73.98209547110343!3d40.76260432042537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f865ca626f%3A0x1ecd551733accc42!2s811+7th+Ave%2C+New+York%2C+NY+10019%2C+Jungtin%C4%97s+Valstijos!5e0!3m2!1slt!2slt!4v1531078027337"  style="border:0" allowfullscreen></iframe>
+                    <p>811 7th Avenue 53rd Street <br> New york, 10019, United States</p>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="ul-footer">
+                <a href="#" class="li-footer">Home</a>
+                <a href="#" class="li-footer">About Us</a>
+            <div class="footer-logo">
+                <img id="footer-logo" src="img/FooterLogo.png" alt="">
+            </div>
+                <a href="#" class="li-footer">Social</a>
+                <a href="#" class="li-footer">Contact</a>
+            </div>
+            <div id="social-icos">
+                <a id="ico-facebook" href="#"></a>
+                <a id="ico-twitter" href="#"></a>
+                <a id="ico-instagram" href="#"></a>
+                <a id="ico-pinterest" href="#"></a>
+            </div>
+            <section id="footer-footer">
+                <p> Copyright &copy; 2015, All Right Reserved </p>
+            </section>
+        </footer>
+
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+        <script type="text/javascript">
+        $(document).ready(function(){
+            $('.img-box').slick({
+                centerMode: true,
+                centerPadding: '60px',
+                slidesToShow: 3,
+                responsive: [
+                    {
+               breakpoint: 768,
+               settings: {
+                   arrows: false,
+                   centerMode: true,
+                   centerPadding: '40px',
+                   slidesToShow: 3
+               }
+           },
+           {
+               breakpoint: 480,
+               settings: {
+                   arrows: false,
+                   centerMode: true,
+                   centerPadding: '40px',
+                   slidesToShow: 1
+               }
+           }
+       ]
+   });
+        });
+
+        </script>
+    </body>
+
+</html>
